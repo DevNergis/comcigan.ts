@@ -12,7 +12,6 @@
     "build": "rimraf dist && tsc",
     "lint": "biome check",
     "release": "semantic-release",
-    "prepack": "npm build",
     "test": "node -r ts-node/register --test tests/*.test.ts"
   },
   "keywords": ["comcigan", "parser", "typescript", "school", "korean"],
